@@ -1,0 +1,14 @@
+NACA 2515
+PLOP
+g
+
+PPAR
+n 320
+
+
+OPER
+ITER 40
+ALFA 6.60
+CPWR NACA2515Alfax6_6Inviscid.cp
+
+QUIT
