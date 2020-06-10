@@ -1,5 +1,8 @@
+% Clear variables and close figures
 clear
 close all
+% Add matlab-4-xfoil folder and subfolders to Matlab path
+addpath(genpath(['..',filesep,'..']));
 
 %% Set parameters for Xfoil calculation
 % Velocity, chord and kinematic viscosity are fictitious parameters used to
