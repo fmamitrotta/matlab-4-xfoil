@@ -1,17 +1,19 @@
 # matlab-4-xfoil
-Object-oriented Matlab framework for the use of Xfoil calculation program.
+Object-oriented Matlab framework for the use of [Xfoil](https://web.mit.edu/drela/Public/web/xfoil/) calculation program.
 
 ## Motivation
 This project was created as a follow-up of my work for sevaral tasks dealing with airfoil analysis by means of the calculation software [Xfoil](https://web.mit.edu/drela/Public/web/xfoil/). The motivation behind the creation and maintenance of this project stems from the desire to have an object-oriented framework to programmatically interact with Xfoil, as opposed to the more classical functional or procedural scripts. Such object-oriented framework is considered to give advantages in terms of modularity and flexibility, together with the convenient opportunity to use specific methods for common user operations (e.g. plotting the airfoil geometry or polar curve).
 
 ## Installation
-1. Download the package to a local folder (e.g. ~/matlab-4-xfoil/) by running: 
+1. Download [Xfoil](https://web.mit.edu/drela/Public/web/xfoil/) executable and add its directory to your `Path` environment variable.
+
+2. Download the package to a local folder (e.g. ~/matlab-4-xfoil/) by running: 
 ```console
 git clone https://github.com/fmamitrotta/matlab-4-xfoil.git
 ```
-2. Run Matlab and add the folder (~/matlab-4-xfoil/) to your Matlab path.
+3. Run Matlab and add the folder (~/matlab-4-xfoil/) to your Matlab path.
 
-3. Use the `XfoilAirfoil` class to start running your Xfoil analyses and enjoy!
+4. Use the `XfoilAirfoil` class to start running your Xfoil analyses and enjoy!
 
 ## Usage
 Set the parameters for your airfoil analyses:
