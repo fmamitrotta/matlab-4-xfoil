@@ -2,7 +2,7 @@
 Object-oriented Matlab framework for the use of [Xfoil](https://web.mit.edu/drela/Public/web/xfoil/) calculation program.
 
 ## Motivation
-This project was created as a follow-up of my work for sevaral tasks dealing with airfoil analysis by means of the calculation software [Xfoil](https://web.mit.edu/drela/Public/web/xfoil/). The motivation behind the creation and maintenance of this project stems from the desire to have an object-oriented framework to programmatically interact with Xfoil, as opposed to the more classical functional or procedural scripts. Such object-oriented framework is considered to give advantages in terms of modularity and flexibility, together with the convenient opportunity to use specific methods for common user operations (e.g. plotting the airfoil geometry or polar curve).
+This project was created as a follow-up of my work for several tasks dealing with airfoil analysis by means of the calculation software [Xfoil](https://web.mit.edu/drela/Public/web/xfoil/). The motivation behind the creation and maintenance of this project stems from the desire to have an object-oriented framework to programmatically interact with Xfoil, as opposed to the more classical functional or procedural scripts. Such object-oriented framework is considered to give advantages in terms of modularity and flexibility, together with the convenient opportunity to use specific methods for common user operations (e.g. plotting the airfoil geometry or polar curve).
 
 ## Installation
 1. Download [Xfoil](https://web.mit.edu/drela/Public/web/xfoil/) executable and add its directory to your `Path` environment variable.
